@@ -15,7 +15,7 @@ NOSTORE = os.environ.get("SOCCERDATA_NOSTORE", 'False').lower() in ('true', '1',
 LOGLEVEL = os.environ.get('SOCCERDATA_LOGLEVEL', 'INFO').upper()
 
 # Directories
-BASE_DIR = Path(os.environ.get("SOCCERDATA_DIR", Path.home() / "soccerdata"))
+BASE_DIR = "E:/Football Work/SOCCERDATA_DIR/soccerdata"
 LOGS_DIR = Path(BASE_DIR, "logs")
 DATA_DIR = Path(BASE_DIR, "data")
 CONFIG_DIR = Path(BASE_DIR, "config")
